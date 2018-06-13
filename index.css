@@ -365,6 +365,11 @@ h3{
     padding: 0 32px;
     text-align: center;
 }
+.h3-container{
+    padding: 32px;
+    margin: 0 32px;
+    background: url("https://www.giallozafferano.it/style/images/bg-h3-sez.png") 0 50% repeat-x;
+}
 .h3-container h3 {
     width: 250px;
     margin: auto;
@@ -383,8 +388,9 @@ h4{
 }
 h5{
     font-family: 'Roboto Slab', serif;
-    color: #6b5699;
+    color: #3d3356;
     margin: 0;
+    font-size: 26px;
 }
 h6{
     color: #f8ddb8;
@@ -465,7 +471,11 @@ nav ul li:last-child{
     border-right: none;
 }
 #nav2 li{
-    padding: 8px 12px;
+    padding: 8px 10px;
+}
+#nav2 li:first-child{
+    margin-left: 0;
+    padding-left: 0;
 }
 #nav2 li a{
     color: #ffffff;
@@ -533,10 +543,11 @@ nav ul li:last-child{
     left: 32px;
 }
 /*CHEF*/
-#chef .h3-container{
-    padding: 32px;
-    margin: 0 32px;
-    background: url("https://www.giallozafferano.it/style/images/bg-h3-sez.png") 0 50% repeat-x;
+#chef .chef-wrapper{
+    margin-bottom: 32px;
+}
+#chef .chef-wrapper:hover{
+    text-decoration:  #4b4164 underline;
 }
 #chef img{
     border-radius: 100%;
@@ -544,7 +555,21 @@ nav ul li:last-child{
     margin: 8px auto;
     width: 60%;
 }
-/*SECTION 3*/
+
+/*HO VOGLIA DI*/
+#vogliadi h5{
+    margin-bottom: 12px;
+}
+#vogliadi li{
+    line-height: 2;
+}
+#vogliadi a span{
+    font-family: 'Roboto Slab', serif;
+    font-weight: 300;
+}
+#vogliadi a span:hover, h5:hover{
+    text-decoration: underline;
+}
 
 /*SECTION 4*/
 

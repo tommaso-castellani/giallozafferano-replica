@@ -363,16 +363,17 @@ h3{
     margin: 0;
     background: #ffffff;
     padding: 0 32px;
-    text-align: center;
+    display: inline-block;
+    position: absolute;
+    left: 50%;
+    top: 22%;
+    transform: translateX(-50%);
 }
 .h3-container{
     padding: 32px;
     margin: 0 32px;
     background: url("https://www.giallozafferano.it/style/images/bg-h3-sez.png") 0 50% repeat-x;
-}
-.h3-container h3 {
-    width: 250px;
-    margin: auto;
+    position: relative;
 }
 h4{
     font-family: 'Amatic SC', cursive;
@@ -481,6 +482,9 @@ nav ul li:last-child{
     color: #ffffff;
     text-transform: uppercase;
     font-size: 15px;
+}
+#nav2 li a:hover{
+    color: #d7ccee;
 }
 #nav2 button{
     line-height: 36px;

@@ -5,7 +5,7 @@
     -moz-box-sizing: border-box;
     box-sizing: border-box;
     text-decoration: none;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'roboto', sans-serif;
     list-style: none;
 }
 button{
@@ -318,7 +318,7 @@ a{
     color: #fd962d;
 }
 .bg-orange{
-    color: #fd962d;
+    background: #fd962d;
 }
 /*NAV*/
 nav li{
@@ -345,6 +345,31 @@ nav ul li:last-child{
     font-size: 24px;
     position: relative;
     top: 6px;
+}
+#nav1 li{
+    border-right: 1px solid lightgray;
+}
+#nav1 li:last-child{
+    border-right: none;
+}
+#nav2 li{
+    padding: 8px 12px;
+}
+#nav2 li a{
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+#nav2 button{
+    line-height: 36px;
+    margin: 8px 0;
+    padding: 0 25px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    border: none;
+    color: #ffffff;
+    text-transform: uppercase;
 }
 
 /*

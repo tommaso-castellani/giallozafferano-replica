@@ -557,18 +557,26 @@ nav ul li:last-child{
 }
 
 /*HO VOGLIA DI*/
-#vogliadi h5{
+#col-left .vogliadi h5{
     margin-bottom: 12px;
 }
-#vogliadi li{
+#col-left .vogliadi li{
     line-height: 2;
 }
-#vogliadi a span{
+#col-left .vogliadi a span{
     font-family: 'Roboto Slab', serif;
     font-weight: 300;
 }
-#vogliadi a span:hover, h5:hover{
+#col-left .vogliadi a span:hover, h5:hover{
     text-decoration: underline;
+}
+#col-left .evidenza h4{
+    text-align: left;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 400;
+    font-size: 18px;
+    text-transform: initial;
+    margin-top: 4px;
 }
 
 /*SECTION 4*/

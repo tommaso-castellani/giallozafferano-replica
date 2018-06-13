@@ -358,11 +358,28 @@ h2{
     margin: 0;
 }
 h3{
-    font-family: 'Roboto Slab', serif;
+    font-family: 'Cookie', serif;
     color: #a295b5;
     margin: 0;
+    background: #ffffff;
+    padding: 0 32px;
+    text-align: center;
+}
+.h3-container h3 {
+    width: 250px;
+    margin: auto;
 }
 h4{
+    font-family: 'Amatic SC', cursive;
+    color: #6b5699;
+    font-size: 26px;
+    text-align: center;
+    margin: 0;
+}
+.h4-big{
+    font-size: 36px;
+    color: #3d3356;
+    font-weight: 700;
 }
 h5{
     font-family: 'Roboto Slab', serif;
@@ -384,10 +401,16 @@ a{
     font-family: 'Lato', sans-serif;
     margin: 0;
 }
+a:hover{
+    text-decoration: none;
+}
 
 /*GENERAL*/
 body{
     background: #f6f2f9;
+}
+.container{
+    background: #ffffff;
 }
 
 /*CCOLORS*/
@@ -509,8 +532,18 @@ nav ul li:last-child{
     bottom: 20px;
     left: 32px;
 }
-/*SECTION 2*/
-
+/*CHEF*/
+#chef .h3-container{
+    padding: 32px;
+    margin: 0 32px;
+    background: url("https://www.giallozafferano.it/style/images/bg-h3-sez.png") 0 50% repeat-x;
+}
+#chef img{
+    border-radius: 100%;
+    display: block;
+    margin: 8px auto;
+    width: 60%;
+}
 /*SECTION 3*/
 
 /*SECTION 4*/

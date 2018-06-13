@@ -324,7 +324,30 @@ a{
 nav li{
     display: inline-block;
     padding: 0 16px;
+    line-height: 36px;
 }
+nav ul{
+    margin: 0;
+}
+nav ul li:last-child{
+    padding-right: 0;
+}
+#nav1 .input-wrapper{
+    border: 1px solid lightgray;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+}
+#nav1 input{
+    border: 0 none;
+}
+#nav1 .fa-user{
+    font-size: 24px;
+    position: relative;
+    top: 6px;
+}
+
+/*
 .nav1{
     height: 50px;
 }
@@ -347,7 +370,7 @@ nav li{
     line-height: 36px;
     color: #54437e;
     background: transparent;
-    border: 0 none;s
+    border: 0 none;
 }
 .nav1 .fa-search{
     width: 10%;
@@ -365,7 +388,7 @@ nav li{
 }
 .nav2{
     height: 50px;
-}
+}*/
 /*HEADER*/
 
 /*SECTION 1*/

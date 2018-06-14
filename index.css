@@ -460,6 +460,9 @@ nav ul li:last-child{
 #nav1 input{
     border: 0 none;
 }
+#nav1 input:focus {
+    border: 0 none;
+}
 #nav1 .fa-user{
     font-size: 24px;
     position: relative;
